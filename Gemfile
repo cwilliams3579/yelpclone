@@ -5,12 +5,12 @@ git_source(:github) do |repo_name|
 end
 ruby '2.3.3'
 gem 'rails', '~> 5.0.1'
-gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
+gem 'decent_exposure'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
@@ -27,6 +27,12 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
+  gem 'sqlite3'
+  gem 'hirb'
   gem 'hub', :require=>nil
   gem 'rails_layout'
+end
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
 end

@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  resources :restaurants
+  get 'pages/about'
+
+  get 'pages/contact'
+  post 'restaurants' => 'restaurants#new'
+
+  root to: 'restaurants#index'
 end
