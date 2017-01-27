@@ -1,4 +1,4 @@
 class VisitorsController < ApplicationController
-  expose :things, ->{ Thing.all }
-  expose :thing
+  expose :users, ->{ User.all }
+  expose :user
 end
