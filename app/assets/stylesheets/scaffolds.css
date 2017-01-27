@@ -22,8 +22,8 @@ pre {
 a {
   color: #000; }
   /* line 26, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
-  a:visited {
-    color: #666; }
+  /*a:visited {
+    color: #666; }*/
   /* line 30, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
   a:hover {
     color: #fff;

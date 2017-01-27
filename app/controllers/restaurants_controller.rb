@@ -2,13 +2,14 @@ class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
   expose :restaurants, ->{ Restaurant.all }
   expose :restaurant
-  
+
   def index
     @restaurants = Restaurant.all
   end
 
 
   def show
+    @reviews = Review.where(restaurant_id: @restaurant.id)
   end
 
   def new
