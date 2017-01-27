@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%#= notice %></p>
 <%= image_tag restaurant.image_url %>
 <p>
   <strong>Name:</strong>
@@ -19,6 +19,6 @@
   <strong>Website:</strong>
   <%= @restaurant.website %>
 </p>
-
+<%= link_to "Write a Review", new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
 <%= link_to 'Edit', edit_restaurant_path(@restaurant), class: "btn btn-link" %> |
 <%= link_to 'Back', restaurants_path, class: "btn btn-link" %>
