@@ -1,6 +1,8 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
-
+  expose :restaurants, ->{ Restaurant.all }
+  expose :restaurant
+  
   def index
     @restaurants = Restaurant.all
   end
@@ -62,6 +64,6 @@ class RestaurantsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def restaurant_params
-      params.require(:restaurant).permit(:name, :address, :phone, :website)
+      params.require(:restaurant).permit(:name, :address, :phone, :website, :image)
     end
 end
