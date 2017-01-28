@@ -9,10 +9,7 @@
       </ul>
     </div>
   <% end %>
-  <div class="form-group">
-    <%= f.label :rating %>
-    <%= f.number_field :rating, class: "form-control" %>
-  </div>
+  <div id="star-rating" data-score= <%= review.rating %> ></div>
   <div class="form-group">
     <%= f.label :comment %>
     <%= f.text_area :comment, class: "form-control" %>
@@ -21,3 +18,9 @@
     <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>
+<script type="text/javascript">
+  $('#star-rating').raty({
+    path: 'https://s3.amazonaws.com/yelp-clone-rails/stars',
+    scoreName: 'review[rating]'
+  });
+</script>

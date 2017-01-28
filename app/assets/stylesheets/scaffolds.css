@@ -1,4 +1,4 @@
-/* line 1, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
+ line 1, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 body {
   background-color: #fff;
   color: #333;
@@ -10,7 +10,8 @@ p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px; }
+  margin: 33px; 
+}
 
 /* line 17, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 pre {
@@ -40,8 +41,9 @@ td {
   padding-right: 5px; }
 
 /* line 47, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
-div.field, div.actions {
-  margin-bottom: 10px; }
+/*div.field, div.actions {
+  margin-bottom: 10px;
+}*/
 
 /* line 52, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 #notice {
@@ -80,4 +82,4 @@ div.field, div.actions {
 label {
   display: block; }
 
-/*# sourceMappingURL=scaffolds.css.map */
+/*# sourceMappingURL=scaffolds.css.map
