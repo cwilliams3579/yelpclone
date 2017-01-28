@@ -8,12 +8,10 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= csrf_meta_tags %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/raty/2.7.0/jquery.raty.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/raty/2.7.0/jquery.raty.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/raty/2.7.0/jquery.raty.css"> <--></-->
   </head>
   <body>
-    <header>
       <%= render 'layouts/navigation' %>
-    </header>
     <div class="container-fluid">
        <%= render 'layouts/messages' %>
        <%= yield %>
