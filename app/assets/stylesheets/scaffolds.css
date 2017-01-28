@@ -11,7 +11,7 @@ p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
+  /*margin: 33px;*/
 }
 
 /* line 17, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
@@ -53,13 +53,13 @@ td {
 /* line 56, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 .field_with_errors {
   padding: 2px;
-  background-color: red;
+  /*background-color: red;*/
   display: table; }
 
 /* line 62, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 #error_explanation {
   width: 450px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
@@ -72,7 +72,7 @@ td {
     font-size: 12px;
     margin: -7px;
     margin-bottom: 0;
-    background-color: #c00;
+    /*background-color: #c00;*/
     color: #fff; }
   /* line 81, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
   #error_explanation ul li {
