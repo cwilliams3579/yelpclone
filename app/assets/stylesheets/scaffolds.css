@@ -21,15 +21,15 @@ pre {
   font-size: 11px; }
 
 /* line 23, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
-a {
-  color: #000; }
+/*a {
+  color: #000; }*/
   /* line 26, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
   /*a:visited {
     color: #666; }*/
   /* line 30, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
-  a:hover {
+  /*a:hover {
     color: #fff;
-    background-color: #000; }
+    background-color: #000; }*/
 
 /* line 36, /home/ninja/Desktop/Udemy/yelpclone/app/assets/stylesheets/scaffolds.scss */
 th {
